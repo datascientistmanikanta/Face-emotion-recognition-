@@ -55,7 +55,7 @@ def main():
     activiteis = ["Introduction","Home", "Webcam Face Detection", "About"]
     choice = st.sidebar.selectbox("Select Activity", activiteis)
     st.sidebar.markdown(
-        """ Developed by Soniya kumawat """)
+        """ Developed by G Manikanta """)
     if choice =="Introduction":
         html_temp = """
     <body style="background-color:red;">
@@ -128,7 +128,7 @@ def main():
 
         html_temp4 = """
                              		<div style="background-color:#98AFC7;padding:10px">
-                             		<h4 style="color:white;text-align:center;">This Application is developed by Soniya kumawat using Streamlit Framework, Opencv, Tensorflow and Keras library for demonstration purpose.</h4>
+                             		<h4 style="color:white;text-align:center;">This Application is developed by G Manikanta using Streamlit Framework, Opencv, Tensorflow and Keras library for demonstration purpose.</h4>
                              		<h4 style="color:white;text-align:center;">Thanks for Visiting</h4>
                              		</div>
                              		<br></br>
